@@ -36,6 +36,10 @@ Crée un script Bash qui envoie un e-mail avec un message "Hello" pour tester l'
    echo -e $email_content | /usr/sbin/ssmtp $destinataire
    ```
 
+   ```bash
+   echo -e "To: sirehtshongany@gmail.com\nFrom: jepense@gmail.com\nSubject: Test Email\n\nHello world!" | /usr/sbin/ssmtp sirehtshongany@gmail.com
+   ```
+
 2. Rends le script exécutable et exécute-le pour tester :
    ```bash
    chmod +x send_test_email.sh
