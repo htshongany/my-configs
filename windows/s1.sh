@@ -12,7 +12,7 @@ fi
 # Chemin du fichier et fichier log
 CONF_FILE="$TARGET_HOME/.git-prompt.sh"
 LOGFILE="/var/log/check_git_prompt.log"
-REPO_URL="https://raw.githubusercontent.com/htshongany/my-configs/main/windows/.git-prompt.sh"
+REPO_URL="https://github.com/htshongany/my-configs/blob/main/windows/.git-prompt.sh"
 
 # Vérifier si le fichier existe
 if [ ! -f "$CONF_FILE" ]; then
